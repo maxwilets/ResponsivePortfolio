@@ -17,7 +17,7 @@
 }
 body {
     margin: auto;
-    background:;
+    
 }
 
 
@@ -237,7 +237,103 @@ h3 {
     body{max-width: 960px}
 }
 @media screen and (max-width: 768px) {
-    body{
-        background-color: red;
+    .background{
+        max-width: 760px;
+        background-color: blue;
     }
+    #top{
+        max-width: 680px;
+    }
+    bodytextP{
+        max-width: 600px;
+    }
+    form{
+        max-width: 480px;
+    }
+    .main{
+        max-width: 600px;
+            
+    }
+    .bottom{
+        max-width: 480px;
+        bottom: 250px;
+    }
+    .top{
+        max-width: 480px;
+        }
+    #coolTxt{
+        float: left; 
+        overflow: auto;
+        left: -45px;
+        bottom: 375px
+
+    }
+    #musicTxt{
+        float: left;
+        position: relative;
+        bottom: 700px;
+    }
+
+    #rpgTxt{
+        position: relative;
+        bottom: 570px;
+    }
+    #dogTxt{
+        position: relative;
+        left: -45px;
+        float: left
+    }
+    .NameB{
+        max-width: 550px;
+    }
+    .Email{
+        max-width: 550px;
+    }
+    textarea{
+        max-width: 550px;
+    }
+
+    }
+   
+    
+
+@media screen and (max-width: 640px) {
+    .main{
+    max-width: 540px;
+    
+        
+    }
+    #fulltop{
+        position: static;
+        max-width: 640px;
+    }
+    #top {
+        max-width: 575px;
+    }
+    body {
+        max-width: 600px
+    }
+    .top{
+        max-width: 420px;
+        padding-right: 100px
+    }
+    .bottom{
+        max-width: 420px;
+    }
+    bodytextP{
+        max-width: 560px;
+        padding-right: 0px
+    }
+    form{
+        max-width: 480px;
+    }
+   .NameB{
+       max-width: 500px;
+   } 
+   .Email{
+       max-width: 500px;
+   }
+   textarea{
+       max-width: 500px;
+   }
 }
