@@ -1,0 +1,111 @@
+#top {
+    background: #ffffff;
+    width: 100%;
+    margin-bottom: 0%;
+    width: 960px;
+    margin: auto;
+}
+
+#fulltop {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-color: #cccccc;
+    width: 100%;
+    background-color: #ffffff;
+    margin: 0;
+    overflow: auto;
+}
+
+;
+body {
+    margin: auto;
+    background-color: #ffffff;
+}
+
+#background {
+    background-color: #4aaaa5;
+    width: 100%;
+    clear: both;
+}
+
+#about {
+    float: right;
+    margin: 10px;
+    color: #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Name {
+    float: left;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    color: white
+}
+
+#contact {
+    float: right;
+    margin: 20px;
+    color: #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0;
+}
+
+#portfolio {
+    float: right;
+    margin: 20px;
+    color: #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0;
+}
+
+.main {
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-left-color: #cccccc;
+    padding: 20px;
+    padding-left: 10px;
+    background-color: #ffffff;
+    margin: auto;
+    width: 960px;
+    overflow: auto;
+    font-size: 22px;
+}
+
+.background {
+    position: absolute;
+    background-color: #dddddd;
+    margin: 0%;
+    width: 100%;
+    padding: 175px 0;
+}
+
+.bodytext {
+    overflow: auto;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+img {
+    margin: auto;
+    float: left;
+    overflow: auto;
+    padding: 0 15px;
+    float: left
+}
+
+footer {
+    position: absolute;
+    background-color: #666666;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    margin: 0%;
+    text-align: center;
+}
+
+h2 {
+    color: #4aaaa5;
+}
